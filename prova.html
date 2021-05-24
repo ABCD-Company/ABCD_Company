@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ABCD COMPANY</title>
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title></title>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+            <link rel="stylesheet" href="style.css">
+            <link rel="stylesheet" href="slide.css">
+          </head>
+    </head>
+    <body style="background-color:rgb(174, 211, 199);">
+        <header>
+            <div class="inner-width">
+              <h2>Menu</h2>
+              <div class="menu-icon">
+                <i class="fas fa-align-right"></i>
+              </div>
+            </div>
+          </header>
+        
+          <div class="navigation-menu">
+            <nav>
+              
+              <li><a href="links/chisiamo.html">Chi Siamo</a></li>
+              <li><a href="links/corsi/corsi.html">Corsi</a></li>
+              <li><a href="links/corsi/lavora.html">Lavora Con Noi</a></li>
+              <li><a href="links/servizi.html">Servizi</a></li>
+              <li><a href="#">Home</a></li>
+            </nav>
+          </div>
+        <center>
+          <h1 style="font-family:verdana;">Progetto: SOS SENEX</h1>
+        </center>
+          <p style="font-size:200%;" style="font-family:verdana;">La vecchiaia, specialmente quella che ha conosciuto tutti gli onori, possiede un'autorità che vale ben più di tutti i piaceri della giovinezza. Marco Tullio Cicerone, De Senectute</p>
+        <center>
+            <img src="logo.jpeg" alt="centered image" />
+        </center>
+        <!--<img src="logo.jpeg" alt="Logo" width="300" height="333">-->
+        <h1></h1>
+        <h1></h1>
+        
+        
+        <center>
+          <a href="mailto:classe4alssezze@gmail.com" style="font-size:160%;">Manda un'email</a>
+        </center>
+        
+        <script>
+            $(".menu-icon").click(function(){
+            $(this).toggleClass("active");
+            $(".navigation-menu").toggleClass("active");
+            $(".menu-icon i").toggleClass("fa-times");
+            });
+        </script>
+    </body>
+</html>
