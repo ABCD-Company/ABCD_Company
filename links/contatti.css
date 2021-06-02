@@ -1,8 +1,9 @@
 body{
-    margin: 0;
-    padding: 0;
-    background: url(lavoro.png) no-repeat;
+    margin: 20;
+    padding: 20;
+    background: url(contattis.jpeg) no-repeat;
     background-size: cover;
+    background-attachment: fixed;
   }
   .box{
     width: 450px;
